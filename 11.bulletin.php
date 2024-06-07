@@ -1,7 +1,7 @@
 <?php
     error_reporting(0);
     session_start();
-    if (!$_SESSION["id"]) {
+    if (!$_SESSION["id"]) {//並檢查是否有SESSION["id"]，如果沒有則顯示 "請先登入"，並在3秒後重新導向到 2.login.html
         echo "請先登入";
         echo "<meta http-equiv=REFRESH content='3, url=2.login.html'>";
     }
@@ -29,3 +29,4 @@
     }
 
 ?>
+<!--更加完善的網站，包括布告欄設計和表格的呈現方式>
