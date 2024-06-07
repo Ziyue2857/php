@@ -22,3 +22,4 @@
     echo "<meta http-equiv=REFRESH content='3, url=2.login.html'>";
   }
 ?>
+<!--簡單的程式登入系統，也加上一些全設施的檢查，如果輸入的和資料庫裡的匹配娜則顯示登入成功>
