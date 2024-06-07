@@ -9,3 +9,4 @@
     $row=mysqli_fetch_array($result);
     echo $row["id"] . " " . $row["pwd"];
 ?>
+<!--建立與資料庫的連結>
